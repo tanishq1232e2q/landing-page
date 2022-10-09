@@ -6,10 +6,24 @@
     "path": "^0.12.7"
   },
   "scripts": {
-        "start": "node app.js",
-        "dev": "nodemon app.js"
-    },
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "name": "landing-page",
+  "version": "1.0.0",
+  "main": "form.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanishq1232e2q/landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanishq1232e2q/landing-page/issues"
+  },
+  "homepage": "https://github.com/tanishq1232e2q/landing-page#readme",
+  "description": ""
 }
