@@ -1,0 +1,338 @@
+.header img{
+    width: 70px;
+    height: 70px;
+    margin-top: 1rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    margin: 6rem;
+    background-image: url("/images/high-tech-2098210_1920.jpg");
+    background-size: contain;
+    height: 40rem;
+    border-radius: 12px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 2rem;
+    
+}
+.ty li a{
+    color: black;
+    text-decoration: none;
+}
+.ty li a:hover{
+    color: blueviolet;
+    
+}
+.header .yo{
+    display: flex;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.yo img{
+    margin-right: 2rem;
+}
+.header .ty{
+    display: flex;
+    list-style: none;
+    
+}
+.ty li{
+    margin: 2rem;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.head1{
+    background-color:orange;
+    height: 12px;
+    border: none;
+    border-radius: 12px;
+    margin: 0rem 2rem;
+}
+.yo h3{
+    margin-top: 2rem;
+}
+.page{
+    display: flex;
+    margin-top: 5rem;
+    margin: 3rem 4rem;
+    color: aliceblue;
+    border-radius: 12px;
+}
+.op img{
+    width: 32rem;
+    border-radius: 23px;
+    box-shadow: 3px 4px 3px 2px  gainsboro;
+}
+.hrs p{
+    margin-right: 5rem;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hrs button{
+    margin-right: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hrs h1{
+    font-size: 4rem;
+    margin-bottom: -0.4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btna{
+    background-color: skyblue;
+    padding: 1rem;
+    border-radius:12px;
+    width: 7rem;
+    font-size: 0.9rem;
+}
+#submit{
+    width: 10%;
+    margin-left: 6rem;
+    background-color: grey;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.btna:hover{
+    box-shadow: 1px 3px 7px 5px yellow;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0rem -2rem;
+    grid-gap: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.services img{
+    width: 19rem;
+    height: 20rem;
+}
+.services img:hover{
+    opacity: 0.7;
+}
+body{
+    background-image: url("/images/cyber-4610993_1920.jpg");
+}
+.services h3{
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.hj{
+    /* background-color: antiquewhite; */
+    background-image: url("/images/background-1201003_1920.jpg");
+    /* background: no-repeat; */
+    background-size: cover;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+    height: 20rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.hj h1{
+    font-size: 3rem;
+}
+.about{
+    height: 28rem;
+    margin-top: 9rem;
+    border-radius: 12px;
+}
+.contact{
+   background-image: url("/images/background-2426328_1920.jpg");
+   background-size: cover;
+    text-align: center;
+    height: 27rem;
+    padding: 1rem;
+    color: aliceblue;
+    
+}
+.contact h1{
+    font-size: 2rem;
+}
+.contact textarea,input{
+    width: 33%;
+    /* height: 2rem; */
+}
+.contact input{
+    margin-bottom: 1rem;
+    height: 1.8rem;
+    margin-left:2.7rem;
+    
+}
+#messa{
+    /* margin-top: 3rem; */
+    position: relative;
+    top: -9rem;
+    margin-right: 1rem;
+}
+#re,#messa{
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.major{
+    height: 32rem;
+}
+.contact p{
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.conta{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    margin: 0rem 2rem;
+    grid-gap: 2rem;
+
+}
+.users{
+    
+   margin-top: 11rem;
+   margin-bottom: 2rem;
+   
+    /* background-color: antiquewhite; */
+}
+.conta img{
+    width: 23rem;
+    height: 20rem;
+   
+}
+.conta img:hover{
+    opacity: 0.8;
+}
+.bn:hover{
+    transform: scale(1.2);
+    transition: all 1.4s ease-in-out;
+}
+.kl a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.log{
+    height: 15rem;
+    background-image: url("/images/fiber-g0452f17b0_1920.jpg");
+    background-size: cover;
+    background-position: -1px;
+    color: white;
+    border-radius: 12px;
+}
+.footer li {
+    cursor: pointer;
+}
+.links li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 2rem;
+   padding: 3rem;
+}
+.box h1{
+    font-size: 2.6rem;
+    font-family: sans-serif;
+}
+.box p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    
+}
+.conta .card2 img{
+    border-radius: 50%; 
+    box-shadow: 2px 3px 4px 5px black;
+}
+.box a{
+    text-decoration: none;
+}
+.box .bn1{
+    position: relative;
+    top: 0.2rem;
+    margin-bottom: 2rem;
+}
+.conta .card3 img{
+    border-radius: 50%;
+    box-shadow: 2px 3px 4px 5px black;
+}
+.conta .card1 img{
+    border-radius: 50%;
+    
+}
+.bn1{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -4rem;
+    border-radius: 12px;
+    font-family: sans-serif;
+    background-color:skyblue;
+}
+.bn{
+    width: 40%;
+    height: 2rem;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -4rem;
+    border-radius: 12px;
+    font-family: sans-serif;
+    background-color:lightyellow;
+    
+}
+.conta a{
+    text-decoration: none;
+}
+.features{
+    margin: 3rem 3rem;
+    
+}
+.kl{
+    height: 25rem;
+}
+.kl img{
+    height: 24rem;
+    background-size: cover;
+}
+.about .imga{
+    width: 100%;
+    height: 50%;
+    object-fit:cover ;
+    position: absolute;
+    top: 119rem;
+   
+}
+.footer{
+    height: 22rem;
+    position: absolute;
+    top: 142rem;
+    background-color: black;
+    color: aliceblue;
+    margin-top: -22rem;
+}
+.fota{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:2rem 18rem;
+   
+
+}
+.abou p{
+    margin-right: 1rem;
+}
+.hd{
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
