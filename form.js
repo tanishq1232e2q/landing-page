@@ -1,6 +1,6 @@
 const express = require("express")
 app = express()
-const port = process.env.PORT || 5000
+
 const path = require("path")
 const { stringify } = require("querystring");
 
@@ -170,10 +170,9 @@ app.post("/contra", (req, res) => {
 
     
 })
+const PORT = process.env.PORT || 5000;
 
-app.listen(port, () => {
-    console.log("working");
-})
+app.listen(PORT,console.log(`server started on port ${PORT}`));
 
 //payload means data of the body
 
